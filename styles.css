@@ -1,0 +1,34 @@
+body, html {
+    margin: 0;
+    background-image: url("images/casino.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: gold
+}
+#page-wrap {
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 6%;
+}
+div {
+    color: rgba(1, 160, 15, 0.973);
+    font-size: 2rem;
+}
+.slot-wallet {
+    background-color: gold;
+}
+.slots-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+.slots-wrapper > div {
+    margin: 20px;
+}
+.wallet-wrapper .stored-wallet {
+    background-color: gold;
+}
