@@ -8,7 +8,7 @@ body, html {
     background-color: gold
 }
 
-button {
+.start-game, .opt-out-game, #add-5, #add-50, #add-100 {
     color: #fff !important;
     text-transform: uppercase;
     text-decoration: none;
